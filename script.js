@@ -13,7 +13,17 @@ const letterText = `Polo Democrático Alternativo En Vía Altgo como el partpara
 partamento. Presentó una fotografía del hermano del presidente, Santiago Uribe, en la que aparece junto al narcotraficante Fabio Ochoa.[64]​`
 /*
 */
-const letterText = `Dear Friend, This is where your letter will appear... Replace this text in script.js with your actual letter.With love, Your Name`;
+const letterText = `Hi Casey!, its Cami here!.
+I made this website for u to never feel lonely :) i hope it helps, i know we are both finding our ways and that we both are gonna make it :) there are no doubts.
+I wish u find a great job :) your relationships are awesome and fullfilling, that u have look moving to another house :) that u have good time togueter with your couple.
+U know I will be foucusing on my work, my university and my life :) but as u did that great letter to me, im doing this to you in the only way i know :) coding!
+
+I hope u never feel lonely, and if u do, and if it helps :) remeber the great times we had!! u have a friend in me and as iven doing, i will pray for you to find the way to happines and 
+fullfilment in your journey. 
+Stay tunned to this website, who knows when it can change hehe. 
+
+With love, your friend Cami :)
+PD: i put u kitty pictures too! hope u like them!!`;
 
 // =================================
 // CONFIGURATION
