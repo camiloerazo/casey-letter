@@ -23,12 +23,13 @@ fullfilment in your journey.
 Stay tunned to this website, who knows when it can change hehe. 
 
 With love, your friend Cami :)
-PD: i put u kitty pictures too! hope u like them!!`;
+PD: i put u kitty pictures too! hope u like them!!
+Scroll down!!!`;
 
 // =================================
 // CONFIGURATION
 // =================================
-const typingSpeed = 80; // milliseconds per character (lower = faster, recommended: 60-100)
+const typingSpeed = 116; // milliseconds per character (lower = faster, recommended: 60-100)
 const scrollToImageDuration = 3000; // milliseconds to scroll to first image (recommended: 2000-4000)
 
 // List your image filenames here (place images in the 'images' folder)
@@ -140,6 +141,47 @@ function smoothScrollTo(targetPosition, duration) {
 
     requestAnimationFrame(animation);
 }
+
+// =================================
+// AUDIO CONTROLS
+// =================================
+const audio = document.getElementById('background-music');
+const muteBtn = document.getElementById('mute-btn');
+const volumeSlider = document.getElementById('volume-slider');
+
+// Set initial volume
+audio.volume = 0.03; // 50%
+
+// Mute/unmute toggle
+muteBtn.addEventListener('click', () => {
+    if (audio.muted) {
+        audio.muted = false;
+        muteBtn.textContent = '🔊';
+    } else {
+        audio.muted = true;
+        muteBtn.textContent = '🔇';
+    }
+});
+
+// Volume slider control
+volumeSlider.addEventListener('input', (e) => {
+    const volume = e.target.value / 100;
+    audio.volume = volume;
+
+    // Update mute button icon based on volume
+    if (volume === 0) {
+        muteBtn.textContent = '🔇';
+    } else {
+        muteBtn.textContent = '🔊';
+    }
+});
+
+// Auto-play music when page loads (with user interaction)
+window.addEventListener('click', () => {
+    if (audio.paused) {
+        audio.play().catch(err => console.log('Audio play failed:', err));
+    }
+}, { once: true });
 
 // Start typing when page loads
 window.addEventListener('load', () => {
