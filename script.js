@@ -24,7 +24,9 @@ Stay tunned to this website, who knows when it can change hehe.
 
 With love, your friend Cami :)
 PD: i put u kitty pictures too! hope u like them!!
-Scroll down!!!`;
+Scroll down!!!
+My fav is the last one hehe!!
+bye bye <3 :) xoxo !!`;
 
 // =================================
 // CONFIGURATION
@@ -37,6 +39,7 @@ const imageFiles = [
     'im1.jpg',
     'im2.jpg',
     'im3.jpg',
+    'im4.jpg',
     // Add more images as needed
 ];
 
