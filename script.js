@@ -28,7 +28,7 @@ PD: i put u kitty pictures too! hope u like them!!`;
 // =================================
 // CONFIGURATION
 // =================================
-const typingSpeed = 50; // milliseconds per character (lower = faster, recommended: 60-100)
+const typingSpeed = 80; // milliseconds per character (lower = faster, recommended: 60-100)
 const scrollToImageDuration = 3000; // milliseconds to scroll to first image (recommended: 2000-4000)
 
 // List your image filenames here (place images in the 'images' folder)
