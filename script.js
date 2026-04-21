@@ -29,7 +29,7 @@ Scroll down!!!`;
 // =================================
 // CONFIGURATION
 // =================================
-const typingSpeed = 116; // milliseconds per character (lower = faster, recommended: 60-100)
+const typingSpeed = 121; // milliseconds per character (lower = faster, recommended: 60-100)
 const scrollToImageDuration = 3000; // milliseconds to scroll to first image (recommended: 2000-4000)
 
 // List your image filenames here (place images in the 'images' folder)
