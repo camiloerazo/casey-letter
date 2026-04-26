@@ -1,19 +1,28 @@
-// Your letter text goes here
-/*
-const letterText = `Dear Friend,
 
-This is where your letter will appear...
+const letterText = `
+25/04/2026
 
-Replace this text in script.js with your actual letter.
+Im truly an idiot Casey, i hope you can forgive me.
 
-With love,
-Your Name`;
+Im really sorry for what i said and i dont write this for you to act normal again towards me, i respect your decitions and your feelings.
+I acknolledge my mistake. I want to apologize; whether we stay close or not, im perfectly fine and okay with any of your decitions and choices.
 
-const letterText = `Polo Democrático Alternativo En Vía Altgo como el partpara conformar el Polo Democrático Alternativo (PDA), movimiento que agrupó a los diferentes matices de la izquierda colombiana.[53]​
-partamento. Presentó una fotografía del hermano del presidente, Santiago Uribe, en la que aparece junto al narcotraficante Fabio Ochoa.[64]​`
-/*
-*/
-const letterText = `Hi Casey!, its Cami here!.
+You are not that awful word i said, that was just wrath and anger, pls forgive me, i didnt have the certanty or knowledge to
+call you the words that i called you, it was really disrespectuful and i take it back and will asume any consecuense it can carry.
+
+I felt good seeing your last ig story about u wanting to maybe start communicatin science and teaching, and i felt
+that maybe i helped planting a good seed for your goals towards future.
+
+I hope that with or without me you remember the times we had and the time we shared togueter, becouse im really
+happy that i met you. And again, sorry for being such a stupid and disgusting person. Farewell Mei Mei, it was awesome
+to have met you in this life.
+
+
+----last letter----
+
+
+
+Hi Casey!, its Cami here!.
 I made this website for u to never feel lonely :) i hope it helps, i know we are both finding our ways and that we both are gonna make it :) there are no doubts.
 I wish u find a great job :) your relationships are awesome and fullfilling, that u have good luck moving to another house :) that u have good time togueter with your partner.
 U know I will be foucusing on my work, my university and my life :) but as u did that great letter to me, im doing this to you in the only way i know :) coding!
@@ -153,7 +162,7 @@ const muteBtn = document.getElementById('mute-btn');
 const volumeSlider = document.getElementById('volume-slider');
 
 // Set initial volume
-audio.volume = 0.03; // 50%
+audio.volume = 0.5; // 50%
 
 // Mute/unmute toggle
 muteBtn.addEventListener('click', () => {
